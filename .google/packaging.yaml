@@ -5,8 +5,12 @@
 ---
 status:       PUBLISHED
 technologies: [Android]
-categories:   [UI]
+categories:   [ActionBar]
 languages:    [Java]
 solutions:    [Mobile]
 github:       android-ActionBarCompat-Styled
+level:        INTERMEDIATE
+icon:         screenshots/big_icon.png
+apiRefs:
+    - android:android.support.v7.app.ActionBarActivity
 license: apache2
