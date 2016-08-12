@@ -2,16 +2,16 @@
 Android ActionBarCompat-Styled Sample
 ===================================
 
-This sample shows you how to use ActionBarCompat with a customized theme. It utilizes a 
+This sample shows you how to use ActionBarCompat with a customized theme. It utilizes a
 split action bar when running on a device with a narrow display, and shows three tabs.
 
 Introduction
 ------------
 
-This sample shows how to style an ActionBar using the [support library][1] on devices running 
+This sample shows how to style an ActionBar using the [support library][1] on devices running
 Android v2.1+ using a custom theme.
 
-This Activity extends from ActionBarActivity, which provides all of the function 
+This Activity extends from ActionBarActivity, which provides all of the function
 necessary to display a compatible Action Bar on devices running Android v2.1+.
 A custom application theme and styles are defined in XML.
 
@@ -23,8 +23,8 @@ Assets have been generated using the ['Android Action Bar Style Generator'][2].
 Pre-requisites
 --------------
 
-- Android SDK v23
-- Android Build Tools v23.0.3
+- Android SDK 24
+- Android Build Tools v24.0.1
 - Android Support Repository
 
 Screenshots
@@ -53,7 +53,7 @@ submitting a pull request through GitHub. Please see CONTRIBUTING.md for more de
 License
 -------
 
-Copyright 2014 The Android Open Source Project, Inc.
+Copyright 2016 The Android Open Source Project, Inc.
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements.  See the NOTICE file distributed with this work for
