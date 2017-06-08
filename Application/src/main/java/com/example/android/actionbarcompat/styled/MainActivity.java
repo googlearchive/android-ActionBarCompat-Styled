@@ -19,14 +19,14 @@ package com.example.android.actionbarcompat.styled;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 
 /**
  * This sample shows you how to use ActionBarCompat with a customized theme. It utilizes a split
  * action bar when running on a device with a narrow display, and show three tabs.
  *
- * This Activity extends from {@link ActionBarActivity}, which provides all of the function
+ * This Activity extends from {@link AppCompatActivity}, which provides all of the function
  * necessary to display a compatible Action Bar on devices running Android v2.1+.
  *
  * The interesting bits of this sample start in the theme files
@@ -35,7 +35,7 @@ import android.view.Menu;
  * Many of the drawables used in this sample were generated with the
  * 'Android Action Bar Style Generator': http://jgilfelt.github.io/android-actionbarstylegenerator
  */
-public class MainActivity extends ActionBarActivity implements ActionBar.TabListener {
+public class MainActivity extends AppCompatActivity implements ActionBar.TabListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

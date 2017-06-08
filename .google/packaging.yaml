@@ -13,5 +13,5 @@ github:       android-ActionBarCompat-Styled
 level:        INTERMEDIATE
 icon:         screenshots/big_icon.png
 apiRefs:
-    - android:android.support.v7.app.ActionBarActivity
+    - android:android.support.v7.app.AppCompatActivity
 license: apache2
